@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=global.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: absolute;
+}
+/*# sourceMappingURL=global.css.map */

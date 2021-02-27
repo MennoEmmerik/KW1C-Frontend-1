@@ -1,13 +1,16 @@
-
-.theme{
+.hero{
+    background-image: url("../images/hero.png");
+    text-align: center;
+    width: 100vw;
+    height: 500px;
+    color: white;
     &__title{
-        font-size: 20px;
-        color: purple;
+        font-size: 50px;
     }
-    &__content{
-        color: green;
-        &__text{
-            color: blue;
-        }
+    &__cta{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px;
+        color: white;
     }
 }

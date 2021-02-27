@@ -1,13 +1,19 @@
-.theme__title {
-  font-size: 20px;
-  color: purple;
+.hero {
+  background-image: url("../images/hero.png");
+  text-align: center;
+  width: 100vw;
+  height: 500px;
+  color: white;
 }
 
-.theme__content {
-  color: green;
+.hero__title {
+  font-size: 50px;
 }
 
-.theme__content__text {
-  color: blue;
+.hero__cta {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
