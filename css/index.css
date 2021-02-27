@@ -1,6 +1,8 @@
-/* CSS bestand voor index.html */
-
-.theme{
-    color: blueviolet;
+.theme {
+  color: red;
 }
 
+.theme-title {
+  color: purple;
+}
+/*# sourceMappingURL=index.css.map */
