@@ -1,7 +1,14 @@
+
 .theme{
-    color: red;
+    &__title{
+        font-size: 20px;
+        color: purple;
+    }
+    &__content{
+        color: green;
+        &__content{
+            color: blue;
+        }
+    }
 }
 
-.theme-title{
-    color: purple;
-}

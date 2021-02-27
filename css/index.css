@@ -1,15 +1,13 @@
-<<<<<<< HEAD
-.theme {
-  color: red;
-}
-
-.theme-title {
+.theme__title {
+  font-size: 20px;
   color: purple;
 }
-/*# sourceMappingURL=index.css.map */
-=======
-/* CSS bestand voor index.html */
-.theme{
-    color: blueviolet;
+
+.theme__content {
+  color: green;
 }
->>>>>>> 4310f9febc0b87b52cbadc379b9d3bcfc594b6a0
+
+.theme__content__content {
+  color: blue;
+}
+/*# sourceMappingURL=index.css.map */
