@@ -1,2 +1,21 @@
+<<<<<<< HEAD
 
 
+=======
+.hero{
+    background-image: url("../images/hero.png");
+    text-align: center;
+    width: 100vw;
+    height: 500px;
+    color: white;
+    &__title{
+        font-size: 50px;
+    }
+    &__cta{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px;
+        color: white;
+    }
+}
+>>>>>>> c0128a3e9763c53e2b1a29befcbf6bfa0d6e0369
