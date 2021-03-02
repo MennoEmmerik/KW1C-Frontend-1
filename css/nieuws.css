@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=nieuws.css.map */
+.theme__newstitle {
+  font-family: 'AmaticSC-Regular';
+  font-size: 35px;
+}
+
+.theme__news-image {
+  font-size: 20px;
+}
+
+.theme__news-contentwrapper .title {
+  font-family: 'AmaticSC-Regular';
+  font-size: 26px;
+}
+
+.theme__news-contentwrapper .content {
+  font-size: 20px;
+}
+/*# sourceMappingURL=nieuws.css.map */
