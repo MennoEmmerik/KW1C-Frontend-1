@@ -8,18 +8,25 @@
 }
 
 .hero__title {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .hero__slogan {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .hero__cta {
+  line-height: 50px;
+  display: inline;
+  padding: 5px 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#D2431B), to(#A62400));
+  background: linear-gradient(to right, #D2431B, #A62400);
+  font-family: 'Roboto-Bold';
+}
+
+.hero__cta__hyperlink {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 5px;
   color: white;
-  background-color: gradient(#D2431B, #A62400);
 }
 /*# sourceMappingURL=index.css.map */
