@@ -5,13 +5,18 @@
     width: 100vw;
     height: 500px;
     color: white;
+    font-family: 'AmaticSC-Regular';
     &__title{
         font-size: 50px;
+    }
+    &__slogan{
+        font-size: 25px;
     }
     &__cta{
         text-transform: uppercase;
         text-decoration: none;
         padding: 5px;
         color: white;
+        background-color: gradient(#D2431B, #A62400);
     }
 }
