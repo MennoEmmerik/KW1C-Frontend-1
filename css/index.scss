@@ -7,7 +7,7 @@
     color: white;
     font-family: 'AmaticSC-Regular';
     &__title{
-        font-size: 50px;
+        font-size: 70px;
     }
 <<<<<<< HEAD
     &__content{
@@ -17,15 +17,20 @@
         }
 =======
     &__slogan{
-        font-size: 25px;
+        font-size: 35px;
     }
     &__cta{
         text-transform: uppercase;
         text-decoration: none;
         padding: 5px;
         color: white;
+<<<<<<< HEAD
         background-color: gradient(#D2431B, #A62400);
 >>>>>>> 561144f4e8414210fa7a230f72c3fd9365a666d5
+=======
+        padding: 10px;
+        background: linear-gradient(to right, #D2431B, #A62400);
+>>>>>>> cf28dac494fa97e8391c50d38d296b732a3d893c
     }
 }
 
