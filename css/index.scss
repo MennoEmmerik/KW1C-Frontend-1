@@ -9,18 +9,10 @@
     &__title{
         font-size: 70px;
     }
-<<<<<<< HEAD
-    &__content{
-        color: green;
-        &__content{
-            color: blue;
-        }
-=======
     &__slogan{
         font-size: 35px;
     }
     &__cta{
-<<<<<<< HEAD
         line-height: 50px;
         display: inline;
         padding: 5px 10px;
@@ -31,19 +23,5 @@
             text-decoration: none;
             color: white;
         }
-=======
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 5px;
-        color: white;
-<<<<<<< HEAD
-        background-color: gradient(#D2431B, #A62400);
->>>>>>> 561144f4e8414210fa7a230f72c3fd9365a666d5
-=======
-        padding: 10px;
-        background: linear-gradient(to right, #D2431B, #A62400);
->>>>>>> cf28dac494fa97e8391c50d38d296b732a3d893c
->>>>>>> 705d7949d96fdab0c22181fde63d6971aa47abde
     }
 }
-
