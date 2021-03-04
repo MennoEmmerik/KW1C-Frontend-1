@@ -1,8 +1,19 @@
-.con-footer-fluid-contact{
-    background-color:#01394A ;
-    color: white;
-}
+// .con-footer-fluid-contact{
+//     position: absolute;
+//     bottom: 0px;
+//     background-color:#1D4C5B ;
+//     text-align: center;
+//     color: white;
+// }
+
+
+    // .con-footer{
+    //     padding: 0px;
+    // }
 
 .con-footer-contact{
-    text-align: center;
+
+    &__row{
+        background-color: red;
+    } 
 }

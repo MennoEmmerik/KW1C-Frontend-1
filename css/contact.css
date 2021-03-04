@@ -1,9 +1,4 @@
-.con-footer-fluid-contact {
-  background-color: #01394A;
-  color: white;
-}
-
-.con-footer-contact {
-  text-align: center;
+.con-footer-contact__row {
+  background-color: red;
 }
 /*# sourceMappingURL=contact.css.map */
