@@ -19,6 +19,49 @@
     padding:0;
     font-family: 'Roboto-Regular' sans-serif;
 }
-header{
-    display: absolute;
+
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    position: absolute;
+    height: 12vh;
+    &__background{
+        width: 0;
+	    height: 12vh;
+	    border-top: 0 solid transparent;
+	    border-right: 100vw solid rgba(20,20,20,.83);
+	    border-bottom: 4vw solid transparent;
+    }
+    &__content{
+        width: 96vw;
+        margin: 0 2vw;
+        position: fixed;
+        z-index: 20;
+        height: 12vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        height: 100%;
+    }
+    &__list{
+        li{
+            display: inline-block;
+        }
+        a{
+            color: white;
+            font-family: 'Roboto-Regular', sans-serif;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 20px;
+        }
+        &__active{
+            font-family: 'Roboto-Bold', sans-serif;
+            font-weight: bold;
+            background-color: linear-gradient(90deg, rgba(1,57,73,1) 0%, rgba(127,157,165,1) 100%);
+        }
+    }
 }
