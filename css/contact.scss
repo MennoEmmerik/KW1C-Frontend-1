@@ -1,19 +1,33 @@
-// .con-footer-fluid-contact{
-//     position: absolute;
-//     bottom: 0px;
-//     background-color:#1D4C5B ;
-//     text-align: center;
-//     color: white;
+// .con-footer{
+
+//         position: absolute;
+//         bottom: 0px;
+//         color: white;
+//         background-color:#1D4C5B;
+//         text-align: center;
+        
+//         &__row{
+//             padding: 30px;
+//         } 
 // }
 
-
-    // .con-footer{
-    //     padding: 0px;
-    // }
-
-.con-footer-contact{
-
+.con-footer{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color:#1D4C5B;
+    
     &__row{
-        background-color: red;
+        padding: 30px;
     } 
+    &__col-md{
+        padding: 10px 25px;
+        background-color:#E5E5E5;
+        color: black;
+    }
+}
+
+// tijdelijk om te testen
+.qwerty{
+    background-color:grey ;
 }

@@ -1,4 +1,21 @@
-.con-footer-contact__row {
-  background-color: red;
+.con-footer {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  background-color: #1D4C5B;
+}
+
+.con-footer__row {
+  padding: 30px;
+}
+
+.con-footer__col-md {
+  padding: 10px 25px;
+  background-color: #E5E5E5;
+  color: black;
+}
+
+.qwerty {
+  background-color: grey;
 }
 /*# sourceMappingURL=contact.css.map */
