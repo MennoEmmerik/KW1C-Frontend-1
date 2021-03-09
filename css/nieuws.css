@@ -83,4 +83,14 @@
   color: #D2431B;
   font-size: 12px;
 }
+
+.newsbutton {
+  text-align: center;
+  margin: 20px;
+}
+
+.newsbutton .button {
+  color: #D2431B;
+  font-size: 22px;
+}
 /*# sourceMappingURL=nieuws.css.map */
