@@ -36,6 +36,7 @@
     }
     &__newsblock{
         display: flex;
+        margin-bottom: 40px;
         &__image{
             img{
                 width: 100%;
@@ -66,5 +67,14 @@
                 }
             }
         }
+    }
+}
+
+.newsbutton{
+    text-align: center;
+    margin: 20px;
+    .button{
+        color: #D2431B;
+        font-size: 22px;
     }
 }
