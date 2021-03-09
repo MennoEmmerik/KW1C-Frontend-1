@@ -1,3 +1,34 @@
+.hero{
+    padding-top: 25vh;
+    background-image: url("../images/HeaderBG_galerie.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100vw;
+    height: 300px;
+    color: white;
+    font-family: 'AmaticSC-Regular';
+    &__title{
+        font-size: 70px;
+    }
+    &__slogan{
+        font-size: 35px;
+    }
+    &__cta{
+        line-height: 50px;
+        display: inline;
+        padding: 5px 10px;
+        background: linear-gradient(to right, #D2431B, #A62400);
+        font-family: 'Roboto-Bold';
+        &__hyperlink{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+
 .theme{
     &__galerietitle{
         font-family: 'AmaticSC-Regular';
