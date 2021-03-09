@@ -11,11 +11,8 @@
 //         } 
 // }
 
-.con-footer{
-    position: absolute;
-    bottom: 0px;
-    color: white;
-    background-color:#1D4C5B;
+.con-footer,{
+
     
     &__row{
         padding: 30px;
@@ -25,9 +22,28 @@
         background-color:#E5E5E5;
         color: black;
     }
+
 }
 
 // tijdelijk om te testen
 .qwerty{
     background-color:grey ;
+}
+
+.footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color:#1D4C5B;
+
+    .text-muted{
+        color: red;
+    }
+
+    .row div{
+        padding: 10px 25px;
+        background-color:#E5E5E5;
+        color: black;
+    }
 }
