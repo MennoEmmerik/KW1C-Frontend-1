@@ -1,8 +1,33 @@
-.con-footer-fluid-contact{
-    background-color:#01394A ;
+// .con-footer{
+
+//         position: absolute;
+//         bottom: 0px;
+//         color: white;
+//         background-color:#1D4C5B;
+//         text-align: center;
+        
+//         &__row{
+//             padding: 30px;
+//         } 
+// }
+
+.con-footer{
+    position: absolute;
+    bottom: 0px;
     color: white;
+    background-color:#1D4C5B;
+    
+    &__row{
+        padding: 30px;
+    } 
+    &__col-md{
+        padding: 10px 25px;
+        background-color:#E5E5E5;
+        color: black;
+    }
 }
 
-.con-footer-contact{
-    text-align: center;
+// tijdelijk om te testen
+.qwerty{
+    background-color:grey ;
 }
