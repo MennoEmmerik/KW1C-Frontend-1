@@ -77,6 +77,13 @@ body {
 .header__list__active {
   font-family: 'Roboto-Bold', sans-serif;
   font-weight: bold;
-  background-color: linear-gradient(90deg, #013949 0%, #7f9da5 100%);
+}
+
+.header__list__border {
+  height: 3px;
+  width: 80%;
+  margin: 0 10%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#013949), to(#7f9da5));
+  background-image: linear-gradient(90deg, #013949 0%, #7f9da5 100%);
 }
 /*# sourceMappingURL=global.css.map */

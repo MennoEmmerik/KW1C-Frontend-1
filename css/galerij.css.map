@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACK,AAAD,oBAAe,CAAA;EACX,WAAW,EAAE,kBAAkB;EAC/B,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,QAAQ;CACpB",
     "sources": [
         "galerij.scss"
     ],

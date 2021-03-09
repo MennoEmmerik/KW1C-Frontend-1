@@ -1,11 +1,11 @@
 .hero {
-  padding-top: 20vh;
+  padding-top: 25vh;
   background-image: url("../images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   width: 100vw;
-  height: 500px;
+  height: 300px;
   color: white;
   font-family: 'AmaticSC-Regular';
 }
