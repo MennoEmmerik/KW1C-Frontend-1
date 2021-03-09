@@ -29,4 +29,19 @@
   background-color: #E5E5E5;
   color: black;
 }
+
+.footer .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 5px 5px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.footer .container ul li {
+  padding: 5px 5px;
+}
 /*# sourceMappingURL=contact.css.map */

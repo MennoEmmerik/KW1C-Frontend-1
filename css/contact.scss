@@ -11,7 +11,7 @@
 //         } 
 // }
 
-.con-footer,{
+.con-footer{
 
     
     &__row{
@@ -31,19 +31,34 @@
 }
 
 .footer{
+
     width: 100vw;
     position: absolute;
     bottom: 0px;
     color: white;
     background-color:#1D4C5B;
 
+// //////////////////////
     .text-muted{
         color: red;
     }
+// /////////////////////
 
     .row div{
         padding: 10px 25px;
         background-color:#E5E5E5;
         color: black;
+    }
+
+    .container ul{
+        display: flex;
+        list-style-type: none;
+        padding: 5px 5px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .container ul li{
+        padding: 5px 5px;
     }
 }
