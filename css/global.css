@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   height: 12vh;
 }
 
@@ -39,6 +39,8 @@ body {
   border-top: 0 solid transparent;
   border-right: 100vw solid rgba(20, 20, 20, 0.83);
   border-bottom: 4vw solid transparent;
+  -webkit-transition: border 1s;
+  transition: border 1s;
 }
 
 .header__content {

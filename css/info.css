@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=info.css.map */
+.hero {
+  padding-top: 25vh;
+  background-image: url("../images/placeholder1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100vw;
+  height: 300px;
+}
+/*# sourceMappingURL=info.css.map */
