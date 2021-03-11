@@ -38,4 +38,26 @@
   font-size: 50px;
   padding: 20px 0px;
 }
+
+.theme__wrapper__image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.theme__wrapper__content .title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.theme__wrapper__content .title-wrapper .title {
+  font-size: 18px;
+}
+
+.theme__wrapper__content .title-wrapper .prijs {
+  font-size: 12px;
+  float: right;
+}
 /*# sourceMappingURL=galerij.css.map */
