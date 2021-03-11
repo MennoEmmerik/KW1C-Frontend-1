@@ -4,11 +4,10 @@
     // style de footer zelf
     color: white;
     background-color:#1D4C5B;
-    position: relative;
-    bottom: 0px;
+    // position: relative;
+    // bottom: 0px;
     width: 100%;
     margin-top: 10%;
-
 
     // geef de coloms een style
     .container > .row > div{padding: 25px 30px;background-color:#E5E5E5;color: black;margin-top: -50px; padding-bottom: 40px;}
@@ -77,7 +76,7 @@
 // header??
 .hero{
     padding-top: 25vh;
-    background-image: url("../images/hero.png");
+    background-image: url("../images/Contact/contact-header-placeholder.png");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -107,4 +106,9 @@
 
 .social-class{
     margin-left: 10px;
+}
+
+.contact-main
+{
+    > .row > div{padding: 25px 30px;background-color:#E5E5E5;color: black; margin-top: 30px;}
 }

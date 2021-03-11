@@ -1,8 +1,6 @@
 .footer {
   color: white;
   background-color: #1D4C5B;
-  position: relative;
-  bottom: 0px;
   width: 100%;
   margin-top: 10%;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -190,7 +188,7 @@
 
 .hero {
   padding-top: 25vh;
-  background-image: url("../images/hero.png");
+  background-image: url("../images/Contact/contact-header-placeholder.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -225,5 +223,12 @@
 
 .social-class {
   margin-left: 10px;
+}
+
+.contact-main > .row > div {
+  padding: 25px 30px;
+  background-color: #E5E5E5;
+  color: black;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=contact.css.map */
