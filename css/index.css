@@ -69,6 +69,11 @@
   font-size: 12px;
 }
 
+.theme__news-contentwrapper .date {
+  text-align: right;
+  margin-top: -30px;
+}
+
 .theme__newsblock {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,5 +116,126 @@
 .theme__newsblock__wrapper .button .button {
   color: #D2431B;
   font-size: 12px;
+}
+
+.theme__wrapper {
+  margin: 50px 0px;
+}
+
+.theme__wrapper__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.theme__wrapper__image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 90%;
+  display: inline-block;
+}
+
+.theme__wrapper__content {
+  -webkit-box-shadow: 2px 2px 10px #ACACAC;
+          box-shadow: 2px 2px 10px #ACACAC;
+  padding: 15px 25px;
+  width: 82%;
+  margin-left: 32px;
+}
+
+.theme__wrapper__content .title-wrapper {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.theme__wrapper__content .title-wrapper .titel {
+  font-size: 25px;
+}
+
+.theme__wrapper__content .title-wrapper .date {
+  font-size: 12px;
+  text-align: right;
+  color: #013949;
+  margin-top: -20px;
+}
+
+.theme__wrapper__content .content {
+  font-size: 18px;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.theme__wrapper__content .subtitle {
+  margin-top: 20px;
+  font-size: 12px;
+  width: 80%;
+}
+
+.theme__wrapper__content .name {
+  font-size: 12px;
+  color: #D2431B;
+}
+
+.theme__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0px;
+}
+
+.theme__button .button {
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'AmaticSC-Regular';
+  background: -webkit-gradient(linear, left top, right top, from(#D2431B), to(#A62400));
+  background: linear-gradient(to right, #D2431B, #A62400);
+  color: #fff;
+  padding: 5px 25px;
+  text-decoration: none;
+}
+
+.theme__button .button:hover {
+  text-decoration: underline;
+}
+
+.slogan-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slogan-wrapper .slogan {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'AmaticSC-Regular';
+  width: 55%;
+  margin: 50px 0px;
+  -webkit-box-shadow: 2px 2px 10px #ACACAC;
+          box-shadow: 2px 2px 10px #ACACAC;
+  padding: 20px;
+  display: inline-block;
+}
+
+.slogan-wrapper .slogan .color__orange {
+  color: #D2431B;
+  font-weight: bold;
+  font-family: 'AmaticSC-Regular';
+}
+
+.slogan-wrapper .slogan .color__blue {
+  color: #013949;
+  font-weight: bold;
+  font-family: 'AmaticSC-Regular';
 }
 /*# sourceMappingURL=index.css.map */
