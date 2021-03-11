@@ -4,13 +4,13 @@
   position: relative;
   bottom: 0px;
   width: 100%;
+  margin-top: 10%;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   /* Internet Explorer 10-11 */
-  /* Microsoft Edge */
 }
 
 .footer .container > .row > div {
-  padding: 10px 25px;
+  padding: 25px 30px;
   background-color: #E5E5E5;
   color: black;
   margin-top: -50px;
@@ -19,6 +19,7 @@
 
 .footer .col-md-9 {
   width: 72%;
+  padding: 20px;
 }
 
 .footer .row > p {
@@ -38,7 +39,7 @@
 }
 
 .footer .container ul li {
-  padding: 5px 5px;
+  padding: 15px 15px;
   position: relative;
 }
 
@@ -55,17 +56,17 @@
   height: 5px;
   position: absolute;
   bottom: 0px;
-  left: 5%;
+  left: 13%;
   background: -webkit-gradient(linear, left top, right top, from(#013949), to(#7f9da5));
   background: linear-gradient(90deg, #013949 0%, #7f9da5 100%);
 }
 
 .footer .container ul > li:hover span {
-  width: 91%;
+  width: 76%;
 }
 
 .footer .footer-ul-hover {
-  width: 91% !important;
+  width: 76% !important;
   background: -webkit-gradient(linear, left top, right top, from(#ae6651), to(#e9a18d)) !important;
   background: linear-gradient(90deg, #ae6651 0%, #e9a18d 100%) !important;
 }
@@ -121,7 +122,7 @@
   opacity: 1;
 }
 
-.footer input[type=email], .footer .contact input {
+.footer input[type=email], .footer .contact input, .footer textarea {
   width: 80%;
   height: 40px;
   border: none;
@@ -130,27 +131,28 @@
   color: white;
 }
 
-.footer input[type=email]::-webkit-input-placeholder, .footer .contact input::-webkit-input-placeholder {
+.footer textarea {
+  height: 150px;
+  padding: 15px;
+}
+
+.footer input[type=email]::-webkit-input-placeholder, .footer .contact input::-webkit-input-placeholder, .footer textarea::-webkit-input-placeholder {
   color: white;
 }
 
-.footer input[type=email]:-ms-input-placeholder, .footer .contact input:-ms-input-placeholder {
+.footer input[type=email]:-ms-input-placeholder, .footer .contact input:-ms-input-placeholder, .footer textarea:-ms-input-placeholder {
   color: white;
 }
 
-.footer input[type=email]::-ms-input-placeholder, .footer .contact input::-ms-input-placeholder {
+.footer input[type=email]::-ms-input-placeholder, .footer .contact input::-ms-input-placeholder, .footer textarea::-ms-input-placeholder {
   color: white;
 }
 
-.footer input[type=email]::placeholder, .footer .contact input::placeholder {
+.footer input[type=email]::placeholder, .footer .contact input::placeholder, .footer textarea::placeholder {
   color: white;
 }
 
-.footer input[type=email]:-ms-input-placeholder, .footer .contact input::-ms-input-placeholder {
-  color: white;
-}
-
-.footer input[type=email]::-ms-input-placeholder, .footer .contact input::-ms-input-placeholder {
+.footer input[type=email]:-ms-input-placeholder, .footer .contact input::-ms-input-placeholder, .footer textarea::-ms-input-placeholder {
   color: white;
 }
 
