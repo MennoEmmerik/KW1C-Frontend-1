@@ -7,4 +7,9 @@
   width: 100vw;
   height: 300px;
 }
+
+.theme__title {
+  font-size: 60px;
+  font-family: 'AmaticSC-Regular';
+}
 /*# sourceMappingURL=info.css.map */

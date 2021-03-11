@@ -7,10 +7,6 @@ $(function() {
 
 
 
-
-
-
-
 // Script footer
 // onclick nieuwsbrief
 $("#ULnieuwsbrief").click(function() 
