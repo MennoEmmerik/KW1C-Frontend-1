@@ -4,12 +4,12 @@
     // style de footer zelf
     color: white;
     background-color:#1D4C5B;
-    position: fixed;
-    bottom: 0px;
     width: 100%;
 
     // geef de coloms een style
     .container > .row > div{padding: 10px 25px;background-color:#E5E5E5;color: black;margin-top: -50px; padding-bottom: 40px;}
+    .col-md-9{width: 72%;}
+    .col-md-3{margin-left: 3%;}
 
     // Opmaak Copy tekst onderaan
     .row > p{text-align: center;padding: 25px;}
