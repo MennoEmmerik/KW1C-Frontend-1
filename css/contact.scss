@@ -17,7 +17,7 @@
 
     // Nieuwsbrief/contact
     .container ul{display: flex;list-style-type: none;padding: 5px 5px;position: absolute;top: 0px;right: 0px;}
-    .container ul li{padding: 5px 5px; position: relative;}
+    .container ul li{padding: 15px 5px; position: relative;}
     .col-md-9{position: relative;}
     // de lijn der onder nieuwsbrief/contact
     .container ul li span{transition-property: width;transition-duration: 700ms;width: 0px;height: 5px;position: absolute;bottom: 0px;left: 5%;background: linear-gradient(90deg, rgba(1,57,73,1) 0%, rgba(127,157,165,1) 100%);}
