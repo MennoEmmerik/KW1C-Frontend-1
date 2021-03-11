@@ -35,4 +35,25 @@
         font-size: 50px;
         padding: 20px 0px;
     }
+    &__wrapper{
+        &__image{
+            img{
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        &__content{
+            .title-wrapper{
+                display: flex;
+                
+                .title{
+                    font-size: 18px;
+                }
+                .prijs{
+                    font-size: 12px;
+                    
+                }
+            }
+        }
+    }
 }
