@@ -1,7 +1,7 @@
 .footer {
   color: white;
   background-color: #1D4C5B;
-  position: relative;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -9,11 +9,7 @@
   /* Microsoft Edge */
 }
 
-.footer .Contact {
-  display: none;
-}
-
-.footer .row > div {
+.footer .container > .row > div {
   padding: 10px 25px;
   background-color: #E5E5E5;
   color: black;
@@ -39,14 +35,39 @@
 
 .footer .container ul li {
   padding: 5px 5px;
+  position: relative;
 }
 
 .footer .col-md-9 {
   position: relative;
 }
 
+.footer .container ul li span {
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
+  width: 0px;
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  background: -webkit-gradient(linear, left top, right top, from(#013949), to(#7f9da5));
+  background: linear-gradient(90deg, #013949 0%, #7f9da5 100%);
+}
+
+.footer .container ul > li:hover span {
+  width: 91%;
+}
+
+.footer .footer-ul-hover {
+  width: 91% !important;
+  background: -webkit-gradient(linear, left top, right top, from(#ae6651), to(#e9a18d)) !important;
+  background: linear-gradient(90deg, #ae6651 0%, #e9a18d 100%) !important;
+}
+
 .footer .col-md-9 ul + h2 + p {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .footer input[type=checkbox] {
@@ -96,7 +117,7 @@
   opacity: 1;
 }
 
-.footer input[type=email] {
+.footer input[type=email], .footer .contact input {
   width: 80%;
   height: 40px;
   border: none;
@@ -105,31 +126,98 @@
   color: white;
 }
 
-.footer input[type=email]::-webkit-input-placeholder {
+.footer input[type=email]::-webkit-input-placeholder, .footer .contact input::-webkit-input-placeholder {
   color: white;
 }
 
-.footer input[type=email]:-ms-input-placeholder {
+.footer input[type=email]:-ms-input-placeholder, .footer .contact input:-ms-input-placeholder {
   color: white;
 }
 
-.footer input[type=email]::-ms-input-placeholder {
+.footer input[type=email]::-ms-input-placeholder, .footer .contact input::-ms-input-placeholder {
   color: white;
 }
 
-.footer input[type=email]::placeholder {
+.footer input[type=email]::placeholder, .footer .contact input::placeholder {
   color: white;
 }
 
-.footer input[type=email]:-ms-input-placeholder {
+.footer input[type=email]:-ms-input-placeholder, .footer .contact input::-ms-input-placeholder {
   color: white;
 }
 
-.footer input[type=email]::-ms-input-placeholder {
+.footer input[type=email]::-ms-input-placeholder, .footer .contact input::-ms-input-placeholder {
   color: white;
 }
 
-.qwerty {
-  background-color: grey;
+.footer .contact input[type=tel] {
+  margin: 20px 0px;
+}
+
+.footer .contact input[type=text] {
+  height: 150px;
+}
+
+.footer .col-md-3 h2, .footer .col-md-3 p {
+  padding: 5px 0px;
+}
+
+.footer .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+}
+
+.footer .grid img {
+  margin: auto;
+  display: block;
+  padding: 20px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.hero {
+  padding-top: 25vh;
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100vw;
+  height: 300px;
+  color: white;
+  font-family: 'AmaticSC-Regular';
+}
+
+.hero__title {
+  font-size: 70px;
+}
+
+.hero__slogan {
+  font-size: 35px;
+}
+
+.hero__cta {
+  line-height: 50px;
+  display: inline;
+  padding: 5px 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#D2431B), to(#A62400));
+  background: linear-gradient(to right, #D2431B, #A62400);
+  font-family: 'Roboto-Bold';
+}
+
+.hero__cta__hyperlink {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=contact.css.map */
