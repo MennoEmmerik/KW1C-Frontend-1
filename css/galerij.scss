@@ -33,7 +33,7 @@
     &__galerietitle{
         font-family: 'AmaticSC-Regular';
         font-size: 50px;
-        padding: 20px 0px;
+        margin: 100px 0px 30px 0px;
     }
     &__wrapper{
         &__image{
@@ -43,16 +43,37 @@
             }
         }
         &__content{
+            box-shadow: 2px 2px 10px #ACACAC;
+            padding: 15px 25px;
+            width: 72.2%;
             .title-wrapper{
                 display: flex;
-                
-                .title{
+                position: relative;
+                margin-bottom: 10px;
+                .titel{
                     font-size: 18px;
                 }
                 .prijs{
                     font-size: 12px;
-                    
+                    display: block;
+                    text-align: right;
+                    position: absolute;
+                    right: 1%;
+                    color: #013949;
                 }
+            }
+            .content{
+                font-size: 12px;
+                width: 80%;
+            }
+            .subtitle{
+                margin-top: 20px;
+                font-size: 10px;
+                width: 80%;
+            }
+            .name{
+                font-size: 10px;
+                color: #D2431B;
             }
         }
     }

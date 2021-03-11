@@ -36,7 +36,7 @@
 .theme__galerietitle {
   font-family: 'AmaticSC-Regular';
   font-size: 50px;
-  padding: 20px 0px;
+  margin: 100px 0px 30px 0px;
 }
 
 .theme__wrapper__image img {
@@ -46,18 +46,47 @@
      object-position: center;
 }
 
+.theme__wrapper__content {
+  -webkit-box-shadow: 2px 2px 10px #ACACAC;
+          box-shadow: 2px 2px 10px #ACACAC;
+  padding: 15px 25px;
+  width: 72.2%;
+}
+
 .theme__wrapper__content .title-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  margin-bottom: 10px;
 }
 
-.theme__wrapper__content .title-wrapper .title {
+.theme__wrapper__content .title-wrapper .titel {
   font-size: 18px;
 }
 
 .theme__wrapper__content .title-wrapper .prijs {
   font-size: 12px;
-  float: right;
+  display: block;
+  text-align: right;
+  position: absolute;
+  right: 1%;
+  color: #013949;
+}
+
+.theme__wrapper__content .content {
+  font-size: 12px;
+  width: 80%;
+}
+
+.theme__wrapper__content .subtitle {
+  margin-top: 20px;
+  font-size: 10px;
+  width: 80%;
+}
+
+.theme__wrapper__content .name {
+  font-size: 10px;
+  color: #D2431B;
 }
 /*# sourceMappingURL=galerij.css.map */
