@@ -53,36 +53,17 @@
 
     <div class="container contact-main">
         <div class="row">
-            <div class="col-md-6">
-                <h2>Nieuwsbrief</h2>
-                <p>Heeft u nog vragen? Neem dan contact met ons op</p>
-                <input type="text">
-            </div>
-            <div class="col-md-6">
-                <h2>Nieuwsbrief</h2>
-            </div>
-        </div>
-    </div>
-
-    <!-- 
-        
-    Footer
-
-    -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">  
-                 <!--Nieuws brief  -->
-                <div class="col-md-9">
+            <div class="col-md-6 first-col">         
+                <div class="contact-wrapper-1">
                     <ul>
                         <li id="ULnieuwsbrief">Nieuwsbrief<span class="footer-ul-hover"></span></li>
                         <li id="ULcontact">Contact<span></span></li>
                     </ul>
                     <h2>Nieuwsbrief</h2>
-                    <p>Wilt u op de hoogte blijven van nieuwe evenementen/schilderijen?</p>
-                    <!-- Form nieuwsbrief -->
+                    <p>Heeft u nog vragen? Neem dan contact met ons op</p>
                     <form class="nieuwsbrief">
-                        <input type="email" placeholder="Email adres" required><br>
+                        <!-- emailadres -->
+                        <input type="email" placeholder="Email adres"><br>
                         <!-- checkbox 1 -->
                         <input name="form-schilderijen" id="form-schilderijen" type="checkbox" placeholder="Email adres" :checked>
                         <!-- label -->
@@ -108,7 +89,7 @@
                             <p>Houd me ook op de hoogte van nieuwe evenementen</p>
                         </label>
                     </form>
-                    <!-- Form for contact -->
+                    
                     <form class="contact" style="display: none;">
                         <div class="row">
                             <div class="col-md-6">
@@ -122,16 +103,44 @@
                     </form>
                 </div>
 
-                <div class="col-md-3">
-                    <h2>Sociaal media</h2>
-                    <p>Volgs ook op one social media</p>
-                    <div class="grid">
-                        <a target="_blank" href="https://www.facebook.com"><img src="/images/footer-icons/facebook.svg" alt="facebook"></a>
-                        <a target="_blank" href="https://www.instagram.com"><img src="/images/footer-icons/instagram.svg" alt="instagram"></a>
-                        <a target="_blank" href="https://twitter.com"><img src="/images/footer-icons/twitter.svg" alt="twitter"></a>
-                        <a target="_blank" href="https://nl.pinterest.com"><img src="/images/footer-icons/pinterest.svg" alt="pinterest"></a>
+                <div class="contact-wrapper-2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Social media</h2>
+                            <p>Volgs ook op one social media</p>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-3">
+                               <a target="_blank" href="https://www.facebook.com"><img src="/images/footer-icons/facebook.svg" alt="facebook"></a>
+                           </div>
+                           <div class="col-md-3">
+                               <a target="_blank" href="https://www.instagram.com"><img src="/images/footer-icons/instagram.svg" alt="instagram"></a>
+                           </div>
+                           <div class="col-md-3">
+                               <a target="_blank" href="https://www.twitter.com"><img src="/images/footer-icons/twitter.svg" alt="twitter"></a>
+                           </div>
+                           <div class="col-md-3">
+                               <a target="_blank" href="https://www.pinterest.com"><img src="/images/footer-icons/pinterest.svg" alt="pinterest"></a>
+                           </div>
+                        </div>      
                     </div>
                 </div>
+
+            </div>
+            <div class="col-md-6 second-col">
+                <img src="images/Contact/contact-placeholder.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+        
+    Footer
+
+    -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">  
                 <p>
                     Copyright © 2021 Maria van Gelder. Alle rechten voorbehouden.
                 </p>

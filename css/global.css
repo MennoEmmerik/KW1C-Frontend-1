@@ -98,6 +98,10 @@ body {
   /* Internet Explorer 10-11 */
 }
 
+.footer h2 {
+  font-weight: normal;
+}
+
 .footer .container > .row > div {
   padding: 25px 30px;
   background-color: #E5E5E5;
@@ -107,8 +111,16 @@ body {
 }
 
 .footer .col-md-9 {
-  width: 72%;
   padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer .col-md-9 {
+    width: 72%;
+  }
+  .footer .col-md-3 {
+    margin-left: 3%;
+  }
 }
 
 .footer .row > p {
@@ -182,10 +194,6 @@ body {
   max-width: 400px;
 }
 
-.footer input[type=checkbox] + label:hover span {
-  background-color: #BCBCBC;
-}
-
 .footer input[type=checkbox] + label span {
   position: absolute;
   top: 0;
@@ -195,6 +203,10 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #ACACAC;
+}
+
+.footer input[type=checkbox] + label:hover span {
+  background-color: #BCBCBC;
 }
 
 .footer input[type=checkbox] + label span svg {
@@ -221,7 +233,7 @@ body {
 }
 
 .footer textarea {
-  height: 150px;
+  height: 130px;
   padding: 15px;
 }
 
@@ -251,10 +263,6 @@ body {
 
 .footer .contact input[type=text] {
   height: 150px;
-}
-
-.footer .col-md-3 {
-  margin-left: 3%;
 }
 
 .footer .col-md-3 h2, .footer .col-md-3 p {
