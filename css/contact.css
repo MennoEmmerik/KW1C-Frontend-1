@@ -139,6 +139,8 @@
 .contact-main textarea {
   padding-top: 15px;
   max-width: 280px;
+  margin-top: 25px;
+  min-height: 119px;
 }
 
 .contact-main .contact-wrapper-1 input::-webkit-input-placeholder, .contact-main textarea::-webkit-input-placeholder {
@@ -206,6 +208,38 @@
 
 .contact-main input[type=checkbox]:checked + label span svg {
   opacity: 1;
+}
+
+.contact-main .contact input[type=submit] {
+  margin-top: 30px;
+}
+
+.contact-main .nieuwsbrief input[type=submit] {
+  margin-top: 50px;
+}
+
+.contact-main .contact input[type=submit], .contact-main .nieuwsbrief input[type=submit] {
+  color: white;
+  width: unset;
+  padding: 11px 13px;
+  border-radius: 50%;
+  background-color: #1D4C5B;
+  border: none;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
+}
+
+.contact-main .contact input[type=submit]:hover, .contact-main .nieuwsbrief input[type=submit]:hover {
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 .contact-main .second-col img {
