@@ -79,23 +79,77 @@
 
 /****************Slider button scss******************/
 
-/*************Slider dingen testen hieronder - Trishna ********/
+.imagecontainer{
+    width: 100%;
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px;
+    margin: 20px 0px;
+}
+
+/**Styling box element waar alles in zit*/
+.box{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rbga(0,0,0, 0.5);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 50px;
+    /*Hover effect - afbeelding komt een beetje naar voren*/
+    &:hover{
+        background-color: #ededed;
+        transform-style: preserve-3d;
+        transform: scale(1.02);
+        transition: all ease 0.3s;
+    }
+}
 
 
-// .testcontainer{
-//     width: 100%;
-//     height: 100vh;
-//     background-color: #a4152c;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+/*Styling main afbeelding*/
+.model{
+    height: 325px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/*Styling details sectie onder de afbeelding*/
+.details{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px #ACACAC;
+    padding: 15px 20px;
+    &__content{
+        .title-wrapper{
+            margin-bottom: 20px;
+            .title{
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+            .prijs{
+                font-size: 12px;
+                text-align: right;
+                color: #013949;
+                margin-top: -20px;
+            }
+        }
+        .content{
+            font-size: 12px;
+            width: 80%;
+        }
+        .subtitle{
+            margin-top: 20px;
+            font-size: 10px;
+            width: 80%;
+        }
+        .name{
+            font-size: 10px;
+            color: #D2431B;
+        }
+    }
+}
 
-
-// .box{
-//     width: 350px;
-//     height: 610px;
-//     background-color: #f0f;
-//     border-radius: 10px;
-//     box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
-// }

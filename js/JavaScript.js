@@ -41,3 +41,16 @@ $("#ULcontact").click(function()
     $(".col-md-9 > h2 + p").text("Heeft u nog vragen? Neem dan contact met ons op");
 
 });
+
+
+
+//Script Galerij
+$(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });

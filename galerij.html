@@ -14,11 +14,16 @@
     <link rel="stylesheet" href="/libraries/bootstrap-5.0.0-beta2-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/galerij.css">
+    <!--Extra css voor galerij slider-->
+    <link rel="stylesheet" href="/css/lightslider.css">
 
     <!-- js -->
     <script src="/js/jquery.js" defer></script>
     <script src="/js/JavaScript.js" defer></script>
     <script src="/js/header.js" defer></script>
+    <!--Extra js voor galerij slider-->
+    <script type="text/javascript" src="/js/galerij/JQuery3.3.1.js" defer></script>
+    <script type="text/javascript" src="/js/galerij/lightslider.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -53,99 +58,208 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="theme__wrapper">
-                    <div class="theme__wrapper__image">
-                        <img src="/images/placeholder10 .png" alt="">
-                    </div>
-                    <div class="theme__wrapper__content">
-                        <div class="title-wrapper">
-                            <div class="titel">
-                                Titel
+    <div class="imagecontainer">
+        <!--slider--------------->
+        <ul id="autoWidth" class="cs-hidden">
+            <!--1------------------>
+            <li class="item-a">
+                <!-- Slider box-->
+                <div class="box">
+                    <!-- model-->
+                    <img src="/images/placeholder10 .png" alt="" class="model">
+                    <!--details-->
+                    <div class="details">
+                        <div class="details__content">
+                            <div class="title-wrapper">
+                                <div class="title">
+                                    titel
+                                </div>
+                                <div class="prijs">
+                                    &euro; XX,-
+                                </div>
+                            </div>  
+                            <div class="content">
+                                Dit schilderij is gebaseerd op de groene 
+                                landschappen van Twente. Het flora komt hier goed 
+                                in naar voren. 
                             </div>
-                            <div class="prijs">
-                                &euro;XX,-
+                            <div class="subtitle">
+                                dit is een subtitle
                             </div>
-                        </div>
-                        <div class="content">
-                            Dit schilderij is gebaseerd op de groene 
-                            landschappen van Twente. Het flora komt hier goed 
-                            in naar voren. 
-                        </div>
-                        <div class="subtitle">
-                            Alle schilderijen zijn bij hand geschilderd door
-                        </div>
-                        <div class="name">
-                            Maria van Gelder
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="theme__wrapper">
-                    <div class="theme__wrapper__image">
-                        <img src="/images/placeholder11.png" alt="">
-                    </div>
-                    <div class="theme__wrapper__content">
-                        <div class="title-wrapper">
-                            <div class="titel">
-                                Titel
+                            <div class="name">
+                                Maria van Gelder
                             </div>
-                            <div class="prijs">
-                                &euro;XX,-
-                            </div>
-                        </div>
-                        <div class="content">
-                            Dit schilderij is gebaseerd op de groene 
-                            landschappen van Twente. Het flora komt hier goed 
-                            in naar voren. 
-                        </div>
-                        <div class="subtitle">
-                            Alle schilderijen zijn bij hand geschilderd door
-                        </div>
-                        <div class="name">
-                            Maria van Gelder
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="theme__wrapper">
-                    <div class="theme__wrapper__image">
-                        <img src="/images/placeholder10 .png" alt="">
-                    </div>
-                    <div class="theme__wrapper__content">
-                        <div class="title-wrapper">
-                            <div class="titel">
-                                Titel
+            </li>
+            <!--2------------------>
+            <li class="item-a">
+                <!-- Slider box-->
+                <div class="box">
+                    <!-- model-->
+                    <img src="/images/placeholder11.png" alt="" class="model">
+                    <!--details-->
+                    <div class="details">
+                        <div class="details__content">
+                            <div class="title-wrapper">
+                                <div class="title">
+                                    titel
+                                </div>
+                                <div class="prijs">
+                                    &euro; XX,-
+                                </div>
+                            </div>  
+                            <div class="content">
+                                Dit schilderij is gebaseerd op de groene 
+                                landschappen van Twente. Het flora komt hier goed 
+                                in naar voren. 
                             </div>
-                            <div class="prijs">
-                                &euro;XX,-
+                            <div class="subtitle">
+                                dit is een subtitle
                             </div>
-                        </div>
-                        <div class="content">
-                            Dit schilderij is gebaseerd op de groene 
-                            landschappen van Twente. Het flora komt hier goed 
-                            in naar voren. 
-                        </div>
-                        <div class="subtitle">
-                            Alle schilderijen zijn bij hand geschilderd door
-                        </div>
-                        <div class="name">
-                            Maria van Gelder
+                            <div class="name">
+                                Maria van Gelder
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </li>
+            <!--3------------------>
+            <li class="item-a">
+                <!-- Slider box-->
+                <div class="box">
+                    <!-- model-->
+                    <img src="/images/placeholder7.jpg" alt="" class="model">
+                    <!--details-->
+                    <div class="details">
+                        <div class="details__content">
+                            <div class="title-wrapper">
+                                <div class="title">
+                                    titel
+                                </div>
+                                <div class="prijs">
+                                    &euro; XX,-
+                                </div>
+                            </div>  
+                            <div class="content">
+                                Dit schilderij is gebaseerd op de groene 
+                                landschappen van Twente. Het flora komt hier goed 
+                                in naar voren. 
+                            </div>
+                            <div class="subtitle">
+                                dit is een subtitle
+                            </div>
+                            <div class="name">
+                                Maria van Gelder
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--4------------------>
+            <li class="item-a">
+                <!-- Slider box-->
+                <div class="box">
+                    <!-- model-->
+                    <img src="/images/placeholder5.jpg" alt="" class="model">
+                    <!--details-->
+                    <div class="details">
+                        <div class="details__content">
+                            <div class="title-wrapper">
+                                <div class="title">
+                                    titel
+                                </div>
+                                <div class="prijs">
+                                    &euro; XX,-
+                                </div>
+                            </div>  
+                            <div class="content">
+                                Dit schilderij is gebaseerd op de groene 
+                                landschappen van Twente. Het flora komt hier goed 
+                                in naar voren. 
+                            </div>
+                            <div class="subtitle">
+                                dit is een subtitle
+                            </div>
+                            <div class="name">
+                                Maria van Gelder
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--5------------------>
+            <li class="item-a">
+                <!-- Slider box-->
+                <div class="box">
+                    <!-- model-->
+                    <img src="/images/placeholder8.jpg" alt="" class="model">
+                    <!--details-->
+                    <div class="details">
+                        <div class="details__content">
+                            <div class="title-wrapper">
+                                <div class="title">
+                                    titel
+                                </div>
+                                <div class="prijs">
+                                    &euro; XX,-
+                                </div>
+                            </div>  
+                            <div class="content">
+                                Dit schilderij is gebaseerd op de groene 
+                                landschappen van Twente. Het flora komt hier goed 
+                                in naar voren. 
+                            </div>
+                            <div class="subtitle">
+                                dit is een subtitle
+                            </div>
+                            <div class="name">
+                                Maria van Gelder
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--6------------------>
+            <li class="item-a">
+                <!-- Slider box-->
+                <div class="box">
+                    <!-- model-->
+                    <img src="/images/placeholder9.png" alt="" class="model">
+                    <!--details-->
+                    <div class="details">
+                        <div class="details__content">
+                            <div class="title-wrapper">
+                                <div class="title">
+                                    titel
+                                </div>
+                                <div class="prijs">
+                                    &euro; XX,-
+                                </div>
+                            </div>  
+                            <div class="content">
+                                Dit schilderij is gebaseerd op de groene 
+                                landschappen van Twente. Het flora komt hier goed 
+                                in naar voren. 
+                            </div>
+                            <div class="subtitle">
+                                dit is een subtitle
+                            </div>
+                            <div class="name">
+                                Maria van Gelder
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="theme__galerietitle">
-                    Recente Kunstwerken
+                    Recente kunstwerken
                 </div>
             </div>
         </div>
@@ -335,21 +449,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Slider dingen testen hieronder - Trishna -->
-
-    <!-- <div class="testcontainer">
-        Slider box
-         <div class="box">
-            <p class="marvel"></p> -->
-            <!-- model-->
-            <!-- <img src="/images/placeholder10 .png" alt="" class="model">
-            details -->
-            <!-- <div class="details"></div> -->
-            
-<!--             
-        </div>
-    </div> --> 
 
     <footer class="footer">
         <div class="container">
