@@ -44,19 +44,23 @@ $("#ULcontact").click(function()
 
 //Script Galerij
 $(document).ready(function() {
-    $('#autoWidth').lightSlider({
-        autoWidth:true,
-        loop:true,
-        onSliderLoad: function() {
-            $('#autoWidth').removeClass('cS-hidden');
-        } 
-    });  
-  });
+  $('#autoWidth').lightSlider({
+      autoWidth:true,
+      loop:true,
+      onSliderLoad: function() {
+          $('#autoWidth').removeClass('cS-hidden');
+      } 
+  });  
+});
 
+//item popup/lightbox oplaten komen
+$(".item").click(function(){
+  alert("yes");
+  $("#popup").css("display","block");
+});
 
-  //
-  $("item").click(function(){
+//item popup/lightbox weg halen
+$(".pop-close").click(function(){
     alert("yes");
-
-
-  });
+    $("#popup").css("display","none");
+});
