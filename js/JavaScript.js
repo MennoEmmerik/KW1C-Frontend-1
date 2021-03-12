@@ -54,30 +54,13 @@ $(document).ready(function() {
 });
 
 //item popup/lightbox oplaten komen
-$(".item").click(function(){
-  alert("yes");
-  $("#popup").css("display","block");
-
-    // Haal de teksten op
-    var titel = $(".item .subtitle");
-    var subtitle = $(".item .titel");
-    var prijs = $(".item .prijs");
-    var text = $(".item .content");
-
-
-    // Zet de teksten in een popup
-    $("").text(titel);
-    $("").text(subtitle);
-    $("").text(prijs);
-    $("").text(text);
-
+$(".read-more").click(function(){
+  $("#popup").css("display","flex");
+  $("#popup").css("opacity","1");
 });
 
 //item popup/lightbox weg halen
-$(".pop-close").click(function(){
-    alert("yes");
+$("#popup-close").click(function(){
     $("#popup").css("display","none");
-
-
-
+    $("#popup").css("opacity","0");
 });
