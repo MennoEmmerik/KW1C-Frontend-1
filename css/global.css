@@ -265,6 +265,38 @@ body {
   height: 150px;
 }
 
+.footer .contact input[type=submit] {
+  margin-top: 15px;
+}
+
+.footer .nieuwsbrief input[type=submit] {
+  margin-top: 30px;
+}
+
+.footer .contact input[type=submit], .footer .nieuwsbrief input[type=submit] {
+  color: white;
+  width: unset;
+  padding: 11px 13px;
+  border-radius: 50%;
+  background-color: #1D4C5B;
+  border: none;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 700ms;
+          transition-duration: 700ms;
+}
+
+.footer .contact input[type=submit]:hover, .footer .nieuwsbrief input[type=submit]:hover {
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
 .footer .col-md-3 h2, .footer .col-md-3 p {
   padding: 5px 0px;
 }

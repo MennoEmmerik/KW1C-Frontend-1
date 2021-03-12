@@ -132,6 +132,21 @@ body{
     .contact input[type=tel]{margin: 20px 0px;}
     .contact input[type=text]{height: 150px;}
 
+    // stylen voor de knop
+    .contact input[type=submit]{margin-top: 15px;}
+    .nieuwsbrief input[type=submit]{margin-top: 30px;}
+    .contact input[type=submit],.nieuwsbrief input[type=submit]{color:white; width: unset;padding: 11px 13px;border-radius: 50%; background-color:#1D4C5B;border: none;  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+    // voor de animatie
+    transition-property: transform;
+    transition-duration: 700ms;
+    }
+    // knop stylen op hover
+    .contact input[type=submit]:hover,.nieuwsbrief input[type=submit]:hover{
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3px);;
+    }
+
+
     // Social media
     .col-md-3 h2 ,.col-md-3 p{padding: 5px 0px;}
     .grid{display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr;gap: 0px 0px;}
