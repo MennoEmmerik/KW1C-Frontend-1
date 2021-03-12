@@ -29,12 +29,12 @@
     }
 }
 
-
 .theme{
     &__galerietitle{
         font-family: 'AmaticSC-Regular';
         font-size: 50px;
         margin: 100px 0px 30px 0px;
+        text-align: center;
     }
     &__wrapper{
         &__image{
