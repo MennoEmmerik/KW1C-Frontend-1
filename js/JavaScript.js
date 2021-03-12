@@ -54,13 +54,13 @@ $(document).ready(function() {
 });
 
 //item popup/lightbox oplaten komen
-$(".item").click(function(){
-  alert("yes");
-  $("#popup").css("display","block");
+$(".read-more").click(function(){
+  $("#popup").css("display","flex");
+  $("#popup").css("opacity","1");
 });
 
 //item popup/lightbox weg halen
-$(".pop-close").click(function(){
-    alert("yes");
+$("#popup-close").click(function(){
     $("#popup").css("display","none");
+    $("#popup").css("opacity","0");
 });
