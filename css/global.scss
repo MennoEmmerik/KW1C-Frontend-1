@@ -34,7 +34,7 @@ body{
 	    border-top: 0 solid transparent;
 	    border-right: 100vw solid rgba(20,20,20,.83);
 	    border-bottom: 4vw solid transparent;
-        transition: border 1s;
+        transition: border-bottom 1s;
     }
     &__content{
         width: 96vw;
