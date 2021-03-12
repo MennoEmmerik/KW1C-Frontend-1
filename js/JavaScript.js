@@ -42,8 +42,6 @@ $("#ULcontact").click(function()
 
 });
 
-
-
 //Script Galerij
 $(document).ready(function() {
     $('#autoWidth').lightSlider({
@@ -53,4 +51,12 @@ $(document).ready(function() {
             $('#autoWidth').removeClass('cS-hidden');
         } 
     });  
+  });
+
+
+  //
+  $("item").click(function(){
+    alert("yes");
+
+
   });
