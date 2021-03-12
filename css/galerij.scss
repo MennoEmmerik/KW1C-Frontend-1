@@ -80,12 +80,12 @@
 /****************Slider button scss******************/
 
 .imagecontainer{
-    width: 100%;
+    width: 70%;
     // height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 80px;
+    padding: 0px 256px;
     margin: 20px 0px;
 }
 
@@ -98,7 +98,7 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 20px 50px;
+    margin: 20px 45px;
     /*Hover effect - afbeelding komt een beetje naar voren*/
     &:hover{
         background-color: #ededed;
