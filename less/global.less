@@ -181,9 +181,18 @@ body{
     transform: translateY(-3px);;
     } 
 
-
     // Social media
     .col-md-3 h2 ,.col-md-3 p{padding: 5px 0px;}
     .grid{display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr;gap: 0px 0px;}
     .grid img{ margin: auto; display: block; padding: 20px;}
+}
+
+
+//Maak het responsive
+@media only screen and (max-width: 768px) {
+    .footer{
+        margin-top: 30%;
+        .row .col-md-3{margin-top: 50px !important;}
+    }
+
 }
