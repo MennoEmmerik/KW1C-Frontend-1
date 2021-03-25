@@ -77,19 +77,19 @@
     h2{font-weight: normal;}
     
     // geef de colomen een style
-    .first-col ,.second-col{color: black; margin-top: 30px;width: 48%;}
-    
-    .first-col{margin-right: 2%;padding: 0px; position: relative;}
+    .first-col ,.second-col{color: black; margin-top: 30px;}
+
+    .first-col{padding: 0px; position: relative;}
     .second-col{padding: 25px 30px;background-color:#E5E5E5;margin-left: 2%;}
 
+    @media screen and (min-width: 992px) {
+        .first-col ,.second-col{color: black;width: 48%;}
+        .first-col{margin-right: 2%;}
+        .second-col{margin-left: 2%;}
+      }
     // geef de divs/wrappers in col 1 een style
     .first-col > div{padding: 25px 30px 50px 30px;color: black; background-color:#E5E5E5;}
     .contact-wrapper-2{margin-top: 50px;}
-
-
-
-    
-
 
     // Geef de tekst de titel in de colomn style
     .contact-wrapper-1  > p, .contact-wrapper-2 p{padding: 30px 0px;}
