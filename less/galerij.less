@@ -37,21 +37,52 @@
         text-align: center;
     }
     &__wrapper{
+        @media screen and (max-width: 1440px) {
+            margin-left: 2vw;
+        }
+        @media screen and (max-width: 576px) {
+            margin: 30px 0px 30px 10vw;
+        }
         &__image{
             img{
                 object-fit: cover;
                 object-position: center;
+                @media screen and (max-width: 1200px) {
+                    width: 25.5vw;
+                }
+                @media screen and (max-width: 1040px) {
+                    width: 26.3vw;
+                }
+                @media screen and (max-width: 768px) {
+                    width: 28vw;
+                }
+                @media screen and (max-width: 576px) {
+                    width: 75vw;
+                }
             }
         }
         &__content{
             box-shadow: 2px 2px 10px #ACACAC;
             padding: 15px 25px;
             width: 72.3%;
+            @media screen and (max-width: 1440px) {
+                width: 21.2vw;
+            }
+            @media screen and (max-width: 768px) {
+                padding: 15px 17px;
+                width: 23.5vw;
+            }
+            @media screen and (max-width: 576px) {
+                width: 68.9vw;
+            }
             .title-wrapper{
                 position: relative;
                 margin-bottom: 10px;
                 .titel{
                     font-size: 18px;
+                    @media screen and (max-width: 576px) {
+                        font-size: 25px;
+                    }
                 }
                 .prijs{
                     font-size: 12px;
@@ -63,11 +94,25 @@
             .content{
                 font-size: 12px;
                 width: 80%;
+                @media screen and (max-width: 992px) {
+                    width: 100%;
+                }
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    font-size: 10px;
+                }
+                @media screen and (max-width: 576px) {
+                    font-size: 16px;
+                    width: 95%;
+                }
             }
             .subtitle{
                 margin-top: 20px;
                 font-size: 10px;
                 width: 80%;
+                @media screen and (max-width: 576px) {
+                    font-size: 13px;
+                }
             }
             .name{
                 font-size: 10px;
@@ -77,6 +122,11 @@
     }
 }
 
+.margin-bottom{
+    @media screen and (max-width: 1200px) {
+        margin-bottom: 100px;
+    }
+}
 /****************Slider button scss******************/
 
 .imagecontainer{
@@ -87,6 +137,30 @@
     align-items: center;
     padding: 0px 15vw;
     margin: 20px 0px;
+    @media screen and (max-width: 1440px) {
+        width: 90vw;
+        margin-left: -170px;
+    }
+    @media screen and (max-width: 1200px) {
+        width: 70vw;
+        margin-left: -20px;
+    }
+    @media screen and (max-width: 1040px) {
+        width: 80vw;
+        margin-left: -80px;
+    }
+    @media screen and (max-width: 768px) {
+        width: 100vw;
+        margin-left: -16vw;
+    }
+    @media screen and (max-width: 576px) {
+        width: 70vw;
+        margin-left: 2vw;
+    }
+    @media screen and (max-width: 468px) {
+        width: 80vw;
+        margin-left: -10vw;
+    }
 }
 
 /**Styling box element waar alles in zit*/
@@ -99,6 +173,9 @@
     justify-content: space-between;
     box-sizing: border-box;
     margin: 20px 45px;
+    @media screen and (max-width: 768px) {
+        margin: 20px 20px;
+    }
     /*Hover effect - afbeelding komt een beetje naar voren*/
     &:hover{
         background-color: #ededed;
@@ -123,7 +200,25 @@
     flex-direction: column;
     box-shadow: 2px 2px 10px #ACACAC;
     padding: 15px 20px;
+    @media screen and (max-width: 768px) {
+        padding: 0px
+    }
+    @media screen and (max-width: 576px) {
+        padding: 0px
+    }
+    @media screen and (max-width: 468px) {
+        padding: 0px
+    }
     &__content{
+        @media screen and (max-width: 768px) {
+            padding: 15px 20px;
+        }
+        @media screen and (max-width: 576px) {
+            padding: 15px 20px;
+        }
+        @media screen and (max-width: 468px) {
+            padding: 15px 20px;
+        }
         .title-wrapper{
             margin-bottom: 20px;
             .title{

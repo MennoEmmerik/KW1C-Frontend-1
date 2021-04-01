@@ -1,11 +1,4 @@
-// SCSS voor contact.html
-
-// 
-// tijdelijk om te testen
-// 
-
-
-// header??
+// Header
 .hero{
     padding-top: 25vh;
     background-image: url("../images/Contact/contact-header-placeholder.png");
@@ -36,36 +29,6 @@
         }
     }
 }
-// .hero{
-//     padding-top: 25vh;
-//     background-image: url("../images/placeholder1.jpg");
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     text-align: center;
-//     width: 100vw;
-//     height: 300px;
-// }
-
-// .theme{
-//     &__title{
-//         font-size: 60px;
-//         font-family: 'AmaticSC-Regular';
-//         padding: 40px 0px;
-//     }
-//     &__content{
-//         font-size: 30px;
-//         margin: 20px 0px;
-//     }
-//     &__image{
-//         margin: 50px 0px;
-//         img{
-//             width: 100%;
-//             height: 300px;
-//             object-fit: cover;
-//             object-position: center;
-//         }
-//     }
-// }
 
 .social-class{
     margin-left: 10px;
@@ -77,19 +40,19 @@
     h2{font-weight: normal;}
     
     // geef de colomen een style
-    .first-col ,.second-col{color: black; margin-top: 30px;width: 48%;}
-    
-    .first-col{margin-right: 2%;padding: 0px; position: relative;}
+    .first-col ,.second-col{color: black; margin-top: 30px;}
+
+    .first-col{padding: 0px; position: relative;}
     .second-col{padding: 25px 30px;background-color:#E5E5E5;margin-left: 2%;}
 
+    @media screen and (min-width: 992px) {
+        .first-col ,.second-col{color: black;width: 48%;}
+        .first-col{margin-right: 2%;}
+        .second-col{margin-left: 2%;}
+      }
     // geef de divs/wrappers in col 1 een style
     .first-col > div{padding: 25px 30px 50px 30px;color: black; background-color:#E5E5E5;}
     .contact-wrapper-2{margin-top: 50px;}
-
-
-
-    
-
 
     // Geef de tekst de titel in de colomn style
     .contact-wrapper-1  > p, .contact-wrapper-2 p{padding: 30px 0px;}
@@ -141,10 +104,6 @@
     transform: translateY(-3px);;
     }
 
-
     .second-col img{width: 100%;}
     .second-col{max-height: 50%;}
-
-
-
 }

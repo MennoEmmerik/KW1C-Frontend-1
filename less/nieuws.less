@@ -84,6 +84,30 @@
             }
         }
     }
+
+    // Het responsieve maken van de popup
+    .popup__container__content{
+        @media screen and (max-width: 768px) {
+            overflow-y: scroll;
+            padding: calc(13vh + 20px) 20px 20px 20px;
+        }
+        @media screen and (max-width: 576px) {
+            height:55%;
+        }
+    }
+    .popup__container__content p{
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
+    .popup__container__header__container{
+        @media screen and (max-width: 768px) {
+            z-index: 1;
+            background-color: #4B4B4B;
+        }
+    }
+
+
 }
 
 .theme{
