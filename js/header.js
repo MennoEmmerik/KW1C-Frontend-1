@@ -12,3 +12,17 @@ window.onscroll = function() {
         header.style.borderBottom = "4vw solid transparent";
     }
 };
+
+// Declare a variable for the more button (mobile navigation)
+var moreToggled = false;
+
+$("#more-btn").click(function(){
+    // If the more menu is toggled
+    if(moreToggled){
+        $("#mobilenav-more").css("display","none");
+    } else {
+        $("#mobilenav-more").css("display","inherit");
+    }
+    // Switch the boolean
+    moreToggled=!moreToggled;
+});

@@ -45,6 +45,9 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media only screen and (max-width: 600px) {
+            justify-content: center;
+        }
     }
     &__logo{
         height: 100%;
@@ -69,6 +72,42 @@ body{
             width: 80%;
             margin: 0 10%;
             background-image: linear-gradient(90deg, rgba(1,57,73,1) 0%, rgba(127,157,165,1) 100%);
+        }
+        @media only screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+    &__mobilelist{
+        // Hide the mobile list by default
+        display: none;
+        @media only screen and (max-width: 600px) {
+            position: fixed;
+            display: flex;
+            bottom: 0;
+            width: 100vw;
+            height: 60px;
+            background-color: #202020;
+            &__more{
+                width: 150px;
+                height: 100px;
+                position: fixed;
+                display: block;
+                background-color: #202020;
+                bottom: 80px;
+                right: 0;
+                display: none;
+            }
+            li{
+                display: inline-flex;
+                width: 25%;
+                height: 60px;
+                justify-content: center;
+                align-items: center;
+            }
+            li:hover{
+                transition: .9s;
+                background-color: #1a1a1a;
+            }
         }
     }
 }
@@ -186,4 +225,8 @@ body{
     .col-md-3 h2 ,.col-md-3 p{padding: 5px 0px;}
     .grid{display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr;gap: 0px 0px;}
     .grid img{ margin: auto; display: block; padding: 20px;}
+
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 60px;
+    }
 }
